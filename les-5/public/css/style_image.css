@@ -1,0 +1,13 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+.photo {
+    padding: 0px 250px 0 250px;
+    display: flex;
+    justify-content: space-between; 
+}
+.count {
+	display: flex;
+	justify-content: center;
+}

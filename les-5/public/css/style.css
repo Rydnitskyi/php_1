@@ -1,0 +1,9 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+.gallery {
+    padding: 50px 250px 0 250px;
+    display: flex;
+    justify-content: space-between; 
+}
