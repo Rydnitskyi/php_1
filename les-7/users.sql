@@ -1,0 +1,11 @@
+DROP database IF EXISTS users;
+CREATE database users;
+USE users;
+
+DROP TABLE IF EXISTS users;
+CREATE TABLE users (
+	id INT NOT NULL AUTO_INCREMENT,
+	email VARCHAR(255) NOT NULL,
+	pass VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+) CHARACTER SET utf8;
